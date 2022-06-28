@@ -4,8 +4,10 @@ import ContentWrapper from "./ContentWrapper";
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <ContentWrapper />
+      <div className="wrapper">
+        <Sidebar />
+        <ContentWrapper />
+      </div>
     </div>
   );
 }

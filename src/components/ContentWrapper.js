@@ -5,15 +5,13 @@ import Footer from "./Footer";
 
 const ContentWrapper = () => {
   return (
-    <div id="wrapper">
-      <div id="content-wrapper" className="d-flex flex-column">
-        <div id="content">
-          <TopBar />
-          <ContentRowTop />
-        </div>
-
-        <Footer />
+    <div id="content-wrapper" className="d-flex flex-column">
+      <div id="content">
+        <TopBar />
+        <ContentRowTop />
       </div>
+
+      <Footer />
     </div>
   );
 };
