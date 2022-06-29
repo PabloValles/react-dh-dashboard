@@ -1,4 +1,5 @@
 import React from "react";
+import jordan from "../assets/images/jordan-walke.png";
 
 const TopBar = () => {
   return (
@@ -38,7 +39,7 @@ const TopBar = () => {
             </span>
             <img
               className="img-profile rounded-circle"
-              src="assets/images/jordan-walke.png"
+              src={jordan}
               alt="Jordan Walke - Creador de React"
               width="60"
             />
