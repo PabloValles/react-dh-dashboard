@@ -1,4 +1,5 @@
 import React from "react";
+import GenresInDb from "./GenresInDb";
 import mandalorian from "../assets/images/mandalorian.jpg";
 
 const LastMovieInDb = () => {
@@ -54,54 +55,34 @@ const LastMovieInDb = () => {
           <div className="card-body">
             <div className="row">
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Acción</div>
-                </div>
+                <GenresInDb name="Acción" bg="danger" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Animación</div>
-                </div>
+                <GenresInDb name="Animación" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Aventura</div>
-                </div>
+                <GenresInDb name="Aventura" bg="success" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Ciencia Ficción</div>
-                </div>
+                <GenresInDb name="Ciencia Ficción" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Comedia</div>
-                </div>
+                <GenresInDb name="Comedia" bg="info" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Documental</div>
-                </div>
+                <GenresInDb name="Documental" bg="primary" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Drama</div>
-                </div>
+                <GenresInDb name="Drama" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Fantasia</div>
-                </div>
+                <GenresInDb name="Fantasía" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Infantiles</div>
-                </div>
+                <GenresInDb name="Infantiles" />
               </div>
               <div className="col-lg-6 mb-4">
-                <div className="card bg-dark text-white shadow">
-                  <div className="card-body">Musical</div>
-                </div>
+                <GenresInDb name="Musical" />
               </div>
             </div>
           </div>
