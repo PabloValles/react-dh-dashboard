@@ -1,0 +1,14 @@
+Para formatear el código correctamente
+
+1) Instalar: npm i -D eslint
+2) Iniciar eslint: npx eslint -D --init
+  Configurar eslint:
+  > Para que se va a usar: To check syntax, find problems, and enforce code style
+  > Modulos: JavaScript modules
+  > Framework: React
+  > Utilizas TypeScript: NO
+  > Donde se ejecutará el código: Navegador (Browser)
+  > Guía de estilos: Popular
+  > Que guia de esilos elegir: standard
+  > Downgrade: YES
+  > Instalar las dependencias necesarias para esta config: YES

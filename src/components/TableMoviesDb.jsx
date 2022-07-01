@@ -1,5 +1,5 @@
-import React from 'react'
-import TableMovieRow from './TableMovieRow'
+import React from "react";
+import TableMovieRow from "./TableMovieRow";
 
 const TableMoviesDb = () => {
   return (
@@ -14,14 +14,14 @@ const TableMoviesDb = () => {
         </tr>
       </thead>
       <tbody>
-        <TableMovieRow 
+        <TableMovieRow
           name="Billy Elliot"
           duration={123}
           rating={5}
           genre={["Drama", "Comedia"]}
           awards={2}
         />
-        <TableMovieRow 
+        <TableMovieRow
           name="Alicia en el país de las maravillas"
           duration={142}
           rating={4.8}
@@ -30,7 +30,6 @@ const TableMoviesDb = () => {
         />
 
         <TableMovieRow />
-
       </tbody>
       <tfoot>
         <tr>
@@ -42,7 +41,7 @@ const TableMoviesDb = () => {
         </tr>
       </tfoot>
     </table>
-  )
-}
+  );
+};
 
-export default TableMoviesDb
+export default TableMoviesDb;

@@ -1,7 +1,7 @@
 import React from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-const GenresInDb = ({name, bg}) => {
+const GenresInDb = ({ name, bg }) => {
   return (
     <div className={`card bg-${bg} text-white shadow`}>
       <div className="card-body">{name}</div>
@@ -10,12 +10,12 @@ const GenresInDb = ({name, bg}) => {
 };
 
 GenresInDb.propTypes = {
-  name: PropTypes.string.isRequired
-}
+  name: PropTypes.string.isRequired,
+};
 
 GenresInDb.defaultProps = {
   name: "Sin género",
-  bg: "dark"
-}
+  bg: "dark",
+};
 
 export default GenresInDb;
