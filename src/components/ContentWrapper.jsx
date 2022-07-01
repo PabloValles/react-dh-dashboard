@@ -5,6 +5,7 @@ import Footer from "./Footer";
 
 const ContentWrapper = () => {
   return (
+    <>
     <div id="content-wrapper" className="d-flex flex-column">
       <div id="content">
         <TopBar />
@@ -13,6 +14,7 @@ const ContentWrapper = () => {
       
       <Footer />
     </div>
+    </>
   );
 };
 

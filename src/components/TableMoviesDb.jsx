@@ -4,7 +4,7 @@ import TableMovieRow from './TableMovieRow'
 const TableMoviesDb = () => {
   return (
     <table className="table table-bordered table-hover">
-      <thead className="table-dark">
+      <thead>
         <tr>
           <th>Título</th>
           <th>Duración</th>

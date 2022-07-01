@@ -23,8 +23,6 @@ const ContentRowMovies = ({titulo, cifra, borderColor, icono}) => {
   );
 };
 
-//border-left-primary, border-left-success, border-left-warning;
-
 ContentRowMovies.propTypes = {
   titulo: PropTypes.string.isRequired,
   borderColor: PropTypes.string.isRequired,

@@ -35,7 +35,6 @@ const ContentRowTop = () => {
             </div>
             <div className="card-body">              
               <TableMoviesDb />
-
             </div>
           </div>
         </div>
